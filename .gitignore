@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Office lock files
+.~lock.*
+
+# Temporary files generated during PDF conversion
+*.tmp
+```
+
+Quick way to create it from Git Bash:
+
+```bash
+cat > .gitignore << 'EOF'
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+node_modules/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.~lock.*
+*.tmp
+EOF
