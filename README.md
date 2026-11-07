@@ -1,21 +1,19 @@
-# Cybersecurity Portfolio Website
+# azzawi91.github.io
 
-Static GitHub Pages portfolio for Mustafa Abdullah Azzawi.
+Research portfolio of **Mustafa A. Azzawi**: energy-efficient, secure wireless and IoT systems for healthcare.
 
-## Pages
+Live site: https://azzawi91.github.io
 
-- About: `index.html`
-- Projects: `projects.html`
-- Research: `research.html`
-- Certifications: `certifications.html`
-- Contact: `contact.html`
+## Structure
 
-## Deploy on GitHub Pages
+| File | Content |
+| --- | --- |
+| `index.html` | Profile, research focus, experience, current work (with animated overviews), publications, recognition, education |
+| `research.html` | Research themes, all publications and manuscripts, research impact |
+| `projects.html` | Research code and other repositories |
+| `certifications.html` | Awards, certifications, training, academic service |
+| `contact.html` | Contact links |
+| `assets/styles.css`, `assets/main.js` | Styling (light/dark) and behaviour (theme, mobile menu, click-to-play animations) |
+| `assets/research/` | One animated GIF and one poster PNG per current-work project |
 
-1. Create a repository named `portfolio`.
-2. Upload these files to the repository root.
-3. In GitHub, go to Settings -> Pages.
-4. Set Source to `Deploy from a branch`.
-5. Select `main` and `/root`.
-
-The site uses only HTML, CSS, and JavaScript.
+Plain HTML, CSS and JavaScript; no build step. GitHub Pages serves the `main` branch root.
