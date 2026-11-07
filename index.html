@@ -9,6 +9,40 @@
       content="Cybersecurity, IoT security, machine learning, and network technology portfolio for Mustafa A. Azzawi | Mustafa Abdullah Azzawi."
     />
     <link rel="stylesheet" href="assets/styles.css" />
+    <style>
+      .current-work {
+        padding-top: 0.2rem;
+      }
+      .status-tag {
+        background: var(--soft);
+        border: 1px solid var(--line);
+        border-radius: 2px;
+        color: var(--link);
+        display: inline-block;
+        font-size: 0.74rem;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        margin-bottom: 0.5rem;
+        padding: 0.2rem 0.45rem;
+        text-transform: uppercase;
+      }
+      .current-work figure {
+        margin: 0.9rem 0;
+      }
+      .current-work img {
+        background: #090d1a;
+        border: 1px solid var(--line);
+        border-radius: 4px;
+        display: block;
+        height: auto;
+        width: 100%;
+      }
+      .current-work figcaption {
+        color: var(--muted);
+        font-size: 0.82rem;
+        margin-top: 0.4rem;
+      }
+    </style>
   </head>
   <body data-page="about">
     <a class="skip-link" href="#main">Skip to content</a>
@@ -92,6 +126,34 @@
             </p>
           </article>
         </div>
+
+        <h2>Current Work</h2>
+        <article class="current-work">
+          <span class="status-tag">In progress</span>
+          <h3>
+            Strategic Dropout Against Dropout-Tolerant Secure Aggregation in Federated IoT: Attacks,
+            Measurement, and a Metadata-Only Defense
+          </h3>
+          <figure>
+            <img
+              src="assets/strategic-dropout.gif"
+              alt="Animated overview: devices send masked updates to an aggregator; an adversary silences selected devices and links, and a metadata-only defense responds."
+              width="1200"
+              height="675"
+              loading="lazy"
+            />
+            <figcaption>Animated overview of the study.</figcaption>
+          </figure>
+          <p>
+            Secure aggregation lets a federated IoT platform learn from many devices while seeing only
+            their combined result, and dropout tolerance keeps that process running when devices fail.
+            This work asks what happens when dropout stops being accidental: an adversary that simply
+            stays silent, sending nothing malicious, can stall training or quietly erase the
+            contributions of chosen groups without breaking any privacy guarantee. The project measures
+            this threat across protocols and workloads, and develops a defense that relies only on
+            participation metadata, never on inspecting device updates.
+          </p>
+        </article>
 
         <h2 style="border-bottom:none">Education</h2>
 <!--        <div class="timeline"> -->
