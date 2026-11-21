@@ -201,6 +201,30 @@
               </div>
             </div>
           </article>
+          <article class="work reveal" id="first-witness">
+            <div class="work-media">
+              <img src="assets/research/first-witness.png" data-gif="assets/research/first-witness.gif" width="1200" height="675"
+                   alt="Animated overview: a new intrusion appears at one site, a poisoning defense discards that site's honest update as an outlier, and sentinel aggregation delivers the warning to the other sites within one round." loading="lazy" decoding="async" />
+              <button class="play" type="button" aria-label="Play the animated overview">
+                <span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z"/></svg> Play overview</span>
+              </button>
+            </div>
+            <div class="work-body">
+              <div class="work-top">
+                <span class="status review">Under review</span>
+                <span class="work-tag">Federated learning security &middot; Intrusion detection</span>
+              </div>
+              <h3>The First-Witness Problem in Federated IoT Intrusion Detection</h3>
+              <p class="authors">A. A. Abdulhussein, <b>M. A. Azzawi</b>, H. M. Al-Juboori, M. F. Nasrudin</p>
+              <p class="summary justify">Federated intrusion detection lets IoT sites train a shared detector without pooling their traffic, and poisoning defenses protect it by discarding updates that deviate from the majority. This work shows what that protection costs: when a new intrusion first appears at one site, that site's honest update is an outlier, so the defense suppresses the one warning the others need. The project proves that the delay is inherent, measures it across eleven defenses on three IoT datasets, and introduces sentinel aggregation, which delivers the warning within one round at a bounded false-alarm cost.</p>
+              <div class="work-actions">
+                <a class="btn" href="#first-witness" onclick="this.closest('.work').querySelector('.play') && this.closest('.work').querySelector('.play').click(); return false;"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z"/></svg> Watch the overview</a>
+              </div>
+            </div>
+          </article>
+
+
+            
           <article class="work reveal" id="sempq-iot">
             <div class="work-media">
               <img src="assets/research/sempq-iot.png" data-gif="assets/research/sempq-iot.gif" width="1200" height="675"
